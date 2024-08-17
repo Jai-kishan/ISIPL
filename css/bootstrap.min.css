@@ -608,6 +608,12 @@ progress {
     height: auto
 }
 
+.service-img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-right: 1rem;
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
