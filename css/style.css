@@ -35,12 +35,21 @@
     transition: .5s;
 }
 
+.btn-explore {
+    color: #fff;
+    background-color: #001064;
+    border-color: #001064
+}
+
+
 .btn.btn-primary,
 .btn.btn-outline-primary:hover,
 .btn.btn-secondary,
+.btn.btn-explore:hover,
 .btn.btn-outline-secondary:hover {
     color: #FFFFFF;
 }
+
 
 .btn.btn-primary:hover {
     background: var(--secondary);
