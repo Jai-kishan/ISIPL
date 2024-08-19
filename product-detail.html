@@ -26,8 +26,15 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <link href="lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -103,7 +110,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Testimonial</h1>
+            <h1 class="display-4 text-white animated slideInDown mb-4">Product Details</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                 </ol>
@@ -113,59 +120,74 @@
     <!-- Page Header End -->
 
 
-    <!-- Testimonial Start -->
+    <!-- Product Detail Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6 mb-5">What They Say About Our Services</h1>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="post-images-slider">
+                <ul class="slides">
+                  <li><img class="center-block" src="img/product/mining.png" alt="Slider Image"/></li>
+                  <li><img class="center-block" src="img/product/telecom-it.png" alt="Slider Image"/></li>
+                  <li><img class="center-block" src="img/product/oil-n-gas.png" alt="Slider Image"/></li>
+                  <li><img class="center-block" src="img/product/telecom-it-1.png" alt="Slider Image"/></li>
+                </ul>
+              </div>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-left h-100">
-                        <img class="img-fluid animated pulse infinite" src="img/testimonial-1.jpg" alt="">
-                        <img class="img-fluid animated pulse infinite" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid animated pulse infinite" src="img/testimonial-3.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid mx-auto mb-4" src="img/testimonial-1.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid mx-auto mb-4" src="img/testimonial-2.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <img class="img-fluid mx-auto mb-4" src="img/testimonial-3.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.</p>
-                            <h5>Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 d-none d-lg-block">
-                    <div class="testimonial-right h-100">
-                        <img class="img-fluid animated pulse infinite" src="img/testimonial-1.jpg" alt="">
-                        <img class="img-fluid animated pulse infinite" src="img/testimonial-2.jpg" alt="">
-                        <img class="img-fluid animated pulse infinite" src="img/testimonial-3.jpg" alt="">
-                    </div>
-                </div>
+          </div>
+          <div class="row multi-columns-row">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
+                <h3 class="alt-features-title font-alt">Development</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
             </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-tools"></span></div>
+                <h3 class="alt-features-title font-alt">Design</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-camera"></span></div>
+                <h3 class="alt-features-title font-alt">Photography</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+            </div>
+          </div>
+          <hr class="divider-w mt-60 mb-60">
+          <div class="row multi-columns-row">
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="work-details">
+                <h5 class="work-details-title font-alt">Project Details</h5>
+                <p></p>
+                <ul>
+                  <li><strong>Client: </strong><span class="font-serif"><a href="#" target="_blank">SomeCompany</a></span>
+                  </li>
+                  <li><strong>Date: </strong><span class="font-serif"><a href="#" target="_blank">23 November, 2015</a></span>
+                  </li>
+                  <li><strong>Online: </strong><span class="font-serif"><a href="#" target="_blank">www.example.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
+              <p>Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- Testimonial End -->
+      </div>
+    <!-- Product Detail End -->
         
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="row g-5">
+            <div class="row g-5">             
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Office Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>LEVEL 16/344, Queen St. Brisbane City, QLD 4000 Australia</p>
@@ -177,7 +199,7 @@
                     <p><i class="fa fa-map-marker-alt me-3"></i> Unit 8/190, Station Road, Yeerongpilly, QLD 4105 Australia</p>
                     <p><i class="fa fa-phone-alt me-3"></i>+61 0721 1199 24 </p>
                     <p><i class="fa fa-envelope me-3"></i>mgr@industrialsupplyint.com.au</p>
-                </div>
+                </div>               
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Our Services</h5>
                     <a class="btn btn-link" href="">Picking & packaging</a>
@@ -222,8 +244,17 @@
     <script src="lib/parallax/parallax.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="lib/flexslider/jquery.flexslider.js"></script>
+    <script src="lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
