@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/theme.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -76,19 +77,399 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto bg-light pe-4 py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="service.html" class="nav-item nav-link">Our Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu bg-light border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item active">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="about.html" 
+                        data-bs-auto-close="outside">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="feature.html">Our Story</a></li>
+                        <li><a class="dropdown-item" href="quote.html">Our Vision & Mission</a></li>
+                        <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                        <li><a class="dropdown-item" href="">Why Choose Us</a></li>
+                        <li><a class="dropdown-item" href="team.html">Brouchure</a></li>
+                        <li><a class="dropdown-item" href="">Our Constitution</a></li>
+                    </ul>
+                </li>
+
+
+
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="industries.html">Industries</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item border-bottom py-2" href="data/home-nft.html">
+                                <span class="d-block text-heading">Aviation Maintenance Services
+                                    <span class="badge bg-danger ms-1">NEW</span>
+                                </span>
+                                <!-- <small class="d-block text-muted">NFTs, Multi-vendor, Auctions</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <img src="img/home/preview/th08.jpg" alt="NFT Marketplace">
+
+                                <!-- <a class="d-block" href="data/home-nft.html" style="width: 250px;">
+
+                                    <img src="img/home/preview/th08.jpg" alt="NFT Marketplace">
+                                </a> -->
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-fashion-store-v1.html">
+                                <span class="d-block text-heading">Oil & Gas</span>
+                                <!-- <small class="d-block text-muted">Classic shop layout</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-fashion-store-v1.html" style="width: 250px;">
+
+                                    <img src="img/home/preview/th01.jpg" alt="Fashion Store v.1">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-electronics-store.html">
+                                <span class="d-block text-heading">Petroleum Refining</span>
+                                <!-- <small class="d-block text-muted">Slider + Promo banners</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-electronics-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th03.jpg" alt="Electronics Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-marketplace.html">
+                                <span class="d-block text-heading">Mining Minerals</span>
+                                <!-- <small class="d-block text-muted">Multi-vendor, digital goods</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-marketplace.html" style="width: 250px;">
+                                    <img src="img/home/preview/th04.jpg" alt="Marketplace">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-grocery-store.html">
+                                <span class="d-block text-heading">Power Energy</span>
+                                <!-- <small class="d-block text-muted">Full width + Side menu</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-grocery-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th06.jpg" alt="Grocery Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-food-delivery.html">
+                                <span class="d-block text-heading">Marine</span>
+                                <!-- <small class="d-block text-muted">Food &amp; Beverages delivery</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-food-delivery.html" style="width: 250px;">
+                                    <img src="img/home/preview/th07.jpg" alt="Food Delivery Service">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-fashion-store-v2.html">
+                                <span class="d-block text-heading">Heavy Engineering</span>
+                                <!-- <small class="d-block text-muted">Slider + Featured categories</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-fashion-store-v2.html" style="width: 250px;">
+                                    <img src="img/home/preview/th02.jpg" alt="Fashion Store v.2">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-single-store.html">
+                                <span class="d-block text-heading">General Manufacturing</span>
+                                <!-- <small class="d-block text-muted">Single product / mono brand</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-single-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th05.jpg" alt="Single Product / Brand Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-single-store.html">
+                                <span class="d-block text-heading">Pharmaceuticals & Chemicals</span>
+                                <!-- <small class="d-block text-muted">Single product / mono brand</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-single-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th05.jpg" alt="Single Product / Brand Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-single-store.html">
+                                <span class="d-block text-heading">Transportation</span>
+                                <!-- <small class="d-block text-muted">Single product / mono brand</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-single-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th05.jpg" alt="Single Product / Brand Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-single-store.html">
+                                <span class="d-block text-heading">Cement</span>
+                                <!-- <small class="d-block text-muted">Single product / mono brand</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-single-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th05.jpg" alt="Single Product / Brand Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2 border-bottom" href="data/home-single-store.html">
+                                <span class="d-block text-heading">Electrical & Electronics</span>
+                                <!-- <small class="d-block text-muted">Single product / mono brand</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-single-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th05.jpg" alt="Single Product / Brand Store">
+                                </a>
+                            </div>
+                        </li>
+                        <li class="dropdown position-static mb-0">
+                            <a class="dropdown-item py-2" href="data/home-single-store.html">
+                                <span class="d-block text-heading">Biotechnology</span>
+                                <!-- <small class="d-block text-muted">Single product / mono brand</small> -->
+                            </a>
+                            <div class="dropdown-menu h-100 animation-none mt-0 p-3">
+                                <a class="d-block" href="data/home-single-store.html" style="width: 250px;">
+                                    <img src="img/home/preview/th05.jpg" alt="Single Product / Brand Store">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="product-details.html"
+                       >Product</a>
+                    <div class="dropdown-menu p-0">
+                        <div class="d-flex flex-wrap flex-sm-nowrap px-2">
+                            <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3">
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Industrial Valves</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ls.html">Ball Valve</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">Gate Valve (Also known as a Sluice Valve)</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ft.html">Butterfly Valve</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-list-ls.html">Globe Valve</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-list-rs.html">Plug Valve</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Drilling Equipment</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-category.html">Draw Works</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-single.html">Travelling Block</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Coiled Tubing</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-cart.html">Drilling Instrumentation</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+
+                                    </ul>
+                                </div>
+                                <div class="widget widget-links">
+                                    <h6 class="fs-base mb-3">Maintenance, Repair Tools</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-catalog.html">Hand Tools</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-single.html">Power Tools</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.html">Pneumatic tools</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3">
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Rotary Equipment</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-category.html">Gas Turbine</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-single.html">Steam Turbine</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-cart.html">Compressors</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="food-delivery-checkout.html">Gearboxes</a>
+                                        </li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Pumps<span
+                                            class="badge bg-danger ms-1">NEW</span></h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-catalog-v1.html">Diaphragm Pumps</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-catalog-v2.html">Centrifugal Pumps</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-single-auction-live.html">Hydraulic Pump</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Process Equipment</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-catalog-v1.html">Autoclaves</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-catalog-v2.html">Filtration</a></li>
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="nft-single-auction-live.html">Heat Exchangers</a></li> -->
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>    
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Instrumentation<span
+                                            class="badge bg-danger ms-1">NEW</span></h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-catalog-v1.html">Industrial Gauges</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-catalog-v2.html">Sensors</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="nft-single-auction-live.html">Flow Meters</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>                     
+                            </div>
+
+                            <div class="mega-dropdown-column pt-1 pt-lg-4 px-2 px-lg-3">
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Electrical & Power Transmission</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-categories.html">Circuit Breakers</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v1.html">Magnetic Starters</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v2.html">Lighting</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-cart.html">Cabling</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Industrial Oil, Chemicals, and Lubricants Suppliers</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-categories.html">Lubricating grease</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v1.html">Grease gun</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v2.html">Industrial oil and chemicals</a></li>
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>   
+                                <div class="widget widget-links">
+                                    <h6 class="fs-base mb-3">Safety Products</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-catalog.html">Safety Harness</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-single.html">Safety Glasses</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.html">Protective Clothing</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.html">Face Shield</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.html">Helmets</a></li>
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="grocery-checkout.html">Industrial And Mining Torch</a></li> -->
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>                                                             
+                            </div>
+
+
+                            <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3">
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">HVAC & Refrigeration</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-ls.html">Air Conditioners</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">Industrial Chillers</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">HVAC Testing Instruments</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">Fans and blowers</a></li>
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">Laboratory Heaters for Flasks</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="shop-grid-rs.html">Devices for Air Conditioners Check</a></li> -->
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Maintenance, Repair & Operation Tools</h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-categories.html">Chain hoist</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v1.html">Rock Tricone drill bit</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-single-v2.html">Couplings</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="shop-cart.html">Gasket</a></li>
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="shop-cart.html">O Rings</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="shop-cart.html">Washers</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="shop-cart.html">Nuts Bolts</a></li> -->
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>
+                                <div class="widget widget-links mb-4">
+                                    <h6 class="fs-base mb-3">Heavy Plant Machinery & Vehicles
+                                        <span class="badge bg-danger ms-1">NEW</span>
+                                    </h6>
+                                    <ul class="widget-list">
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-category.html">Backhoe Loader</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-single.html">Compact Excavator</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Dump trucks</a></li>
+                                        <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Forklift</a></li>
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Cranes</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Bulldozer</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Compactors</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Clutch</a></li> -->
+                                        <!-- <li class="widget-list-item"><a class="widget-list-link" href="marketplace-vendor.html">Brake Discs</a></li> -->
+                                        <!-- <a href="#"><i class="fa fa-arrow-right text-primary me-2"> Explore More</i></a> -->
+                                    </ul>
+                                </div>                                
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </li>
+
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="service.html"
+                        data-bs-auto-close="outside">Services</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Expertise</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="product-details.html">Outsource Procurement</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Tail Spend Management</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Indirect Procurement</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Reduce Invoice and Supplier
+                                        Base Reduction</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Lower Total Cost of Ownership
+                                        (TCO)</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="feature.html">PROCUREMENT & SHIPPING</a></li>
+                                <li><a class="dropdown-item" href="feature.html">Warehouse</a></li>
+                                <li><a class="dropdown-item" href="feature.html">SHIPPING</a></li>
+                                <li><a class="dropdown-item" href="feature.html">QUALITY CONTROL</a></li>
+                                <li><a class="dropdown-item" href="feature.html">Spare Parts Procurement</a></li>
+                                <li><a class="dropdown-item" href="feature.html">SUPPLY CHAIN MANAGEMENT</a>
+                                </li>
+                                <li><a class="dropdown-item" href="dashboard-payouts.html">Payouts</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Vertical - Disciplines<span
+                                    class="badge bg-danger ms-1">NEW</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="quote.html">Project Supply</a></li>
+                                <li><a class="dropdown-item" href="quote.html">Procurement Services</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Solutions<span class="badge bg-danger ms-1">NEW</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="404.html">MRO SUPPLY</a></li>
+                                <li><a class="dropdown-item" href="404.html">Inventory planning and optimisation
+                                        solutions</a></li>
+                                <li><a class="dropdown-item" href="404.html">Supply chain financing</a></li>
+                                <li><a class="dropdown-item" href="404.html">Global MRO procurement excellence</a></li>
+                                <li><a class="dropdown-item" href="404.html">Spare parts availability</a></li>
+                                <li><a class="dropdown-item" href="404.html">Plant Maintenance and MRO Spare Parts
+                                        Management</a></li>
+                                <li><a class="dropdown-item" href="404.html">Strategic Sourcing & MRO Data
+                                        Enrichment</a></li>
+                                <li><a class="dropdown-item" href="404.html">Solutions</a></li>
+                                <li><a class="dropdown-item" href="404.html">Master data management</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="testimonial.html">Enterprise</a></li>
+                    </ul>
+                </li>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
